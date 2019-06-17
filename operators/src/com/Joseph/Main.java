@@ -37,6 +37,23 @@ public class Main {
         if (topScore > secondScore && topScore < 110 )
             System.out.println("Score is greater than 60 but less than 110");
 
+        if ((topScore > 90) || (secondScore > 90))
+            System.out.println("one score is greater than 90");
+
+        boolean isCar = false;
+        if (!isCar)
+            System.out.println("Car is false");
+
+        boolean wasCar = isCar ? true : false;
+        System.out.println(wasCar);
+
+        double myFirstValue = 20;
+        double mySecondValue = 80;
+        double myTotal = (myFirstValue + mySecondValue) * 25;
+        System.out.println(myTotal);
+
+        double theRemainder = myTotal % 40;
+        System.out.println(theRemainder);
 
 
     }
