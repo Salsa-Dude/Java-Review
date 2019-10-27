@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9c8fa6e6-5016-40b2-b8cf-2ff7be2388cf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coding-exercises.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/coding-exercises/com/Joseph/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/coding-exercises/com/Joseph/SpeedConverter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Joseph/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Joseph/SpeedConverter.java" beforeDir="false" />
+    <list default="true" id="c7c5de65-7d54-4f99-b349-02897783ab93" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coding-exercises.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/coding-exercises/com/Joseph/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/coding-exercises/com/Joseph/SpeedConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/com/Joseph/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/com/Joseph/SpeedConverter.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,22 +21,24 @@
     <option name="delegatedBuild" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/Joseph/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/Joseph/SpeedConverter.java" />
         <option value="$PROJECT_DIR$/src/com/Joseph/Main.java" />
       </list>
     </option>
@@ -49,9 +51,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -59,13 +62,31 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="megaBytes-converter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="megaBytes-converter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="megaBytes-converter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="megaBytes-converter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="megaBytes-converter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="megaBytes-converter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Joseph" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="ProjectPane" />
     </panes>
-  </component>
-  <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -82,7 +103,7 @@
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.Joseph.Main" />
-      <module name="coding-exercises" />
+      <module name="megaBytes-converter" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -101,16 +122,17 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="9c8fa6e6-5016-40b2-b8cf-2ff7be2388cf" name="Default Changelist" comment="" />
-      <created>1572133962497</created>
+      <changelist id="c7c5de65-7d54-4f99-b349-02897783ab93" name="Default Changelist" comment="" />
+      <created>1572139849550</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1572133962497</updated>
+      <updated>1572139849550</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -122,10 +144,10 @@
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32891566" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3299363" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -141,17 +163,10 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/Joseph/SpeedConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/Joseph/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="285">
+          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
         </state>
       </provider>
     </entry>
