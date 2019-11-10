@@ -15,7 +15,7 @@ public class Main {
             if(isPrime(i)) {
                 count++;
                 System.out.println("Number " + i + " is a prime number");
-                
+
             }
         }
 
