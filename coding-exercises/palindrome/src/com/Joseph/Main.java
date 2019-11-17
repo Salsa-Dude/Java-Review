@@ -30,7 +30,7 @@ public class Main {
             reverse += lastDigit;
             num /= 10;
         }
-        
+
         System.out.println(number);
         System.out.println(reverse);
 
