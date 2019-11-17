@@ -39,7 +39,7 @@ public class Main {
         if (start < 0 || end < 0 || start > end){
             return -1;
         }
-        
+
         int sum = 0;
 
         for(int i = start; i <= end; i++) {
