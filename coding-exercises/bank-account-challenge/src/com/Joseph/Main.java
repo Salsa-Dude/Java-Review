@@ -16,5 +16,15 @@ public class Main {
 
     public static void main(String[] args) {
 	// write your code here
+        Account josephAccount = new Account();
+
+        josephAccount.withdrawl(100.0);
+        josephAccount.deposit(50.0);
+
+        josephAccount.withdrawl(100.0);
+
+        Account lizAccount = new Account("69", 100.0, "Liz","liz@gmail.com", "7034435476" );
+        System.out.println(lizAccount.getAccountNumber());
+        System.out.println(lizAccount.getEmail());
     }
 }

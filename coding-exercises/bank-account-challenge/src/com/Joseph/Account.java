@@ -21,8 +21,29 @@ public class Account {
     private String email;
     private String phoneNumber;
 
+    // Constructor functions are called while the object is getting created.
+    // Constructors functions can also method overload.
+    // Method Overloading is a feature that allows a class to have more than one method having the same name,
+    // - if their argument lists are different.
+    // We can also call other constructor functions inside a constructor function
+    // - One reason behind this is setting default values if no arguments have been passed in the constructor.
+
+    public Account() {
+        this("12345", 1.50, "default name", "default@gmail.com", "703");
+    }
+
+    public Account(String accountNumber, double balance, String name, String email, String phoneNumber) {
+        System.out.println("setting intial values in constructor");
+        this.accountNumber = accountNumber;
+        this.balance = balance;
+        this.name = name;
+        this.email = email;
+        this.phoneNumber = phoneNumber;
+    }
+
     public void deposit(double depositAmount) {
         this.balance += depositAmount;
+        System.out.println("Deposit of " + depositAmount + " made. New balance is " + this.balance);
     }
 
     public void withdrawl(double withdrawlAccount) {
@@ -30,7 +51,7 @@ public class Account {
             System.out.println("Only " + this.balance + " available. Withdrawl not processed.");
         } else {
             this.balance -= withdrawlAccount;
-            
+            System.out.println("Withdrawl of " + withdrawlAccount + " Processed. Remaining balance = " + this.balance);
         }
     }
 
