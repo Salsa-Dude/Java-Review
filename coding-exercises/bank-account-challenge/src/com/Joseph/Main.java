@@ -16,6 +16,8 @@ public class Main {
 
     public static void main(String[] args) {
 	// write your code here
+
+        // constructor 1
         Account josephAccount = new Account();
 
         josephAccount.withdrawl(100.0);
@@ -23,8 +25,13 @@ public class Main {
 
         josephAccount.withdrawl(100.0);
 
+        // constructor 2
         Account lizAccount = new Account("69", 100.0, "Liz","liz@gmail.com", "7034435476" );
         System.out.println(lizAccount.getAccountNumber());
         System.out.println(lizAccount.getEmail());
+
+        // constructor 3
+        Account lilyAccount = new Account("Lily", "lily@gmail.com", "703");
+        System.out.println(lilyAccount.getAccountNumber());
     }
 }
