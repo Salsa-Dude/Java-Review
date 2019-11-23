@@ -9,8 +9,7 @@ public class Dog extends Animal {
     private String coat;
 
 
-
-    public Dog( String name, int size, int weight, int eyes, int legs, int tail, int teeth, String coat) {
+    public Dog(String name, int size, int weight, int eyes, int legs, int tail, int teeth, String coat) {
         // brain and body variable called using super from base Animal class
         super(name, 1, 1, size, weight);
         this.eyes = eyes;
@@ -29,4 +28,17 @@ public class Dog extends Animal {
         this.chew();
         super.eat();
     }
+
+    public void walk() {
+        System.out.println("Dog.walk() called");
+
+        // Can call using super
+//        super.move(30);
+        move(30);
+    }
+
+    public void run() {
+        System.out.println("Dog.run() called");
+    }
+
 }
