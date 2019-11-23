@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a4808e5f-16db-417c-97c3-c3a33d4a2c73" name="Default Changelist" comment="" />
+    <list default="true" id="9a200acb-99b9-4f86-9e24-0a696ab4c73d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../bank-account-challenge/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../bank-account-challenge/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,20 +17,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/Joseph/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
+            <state relative-caret-position="375">
+              <caret line="28" column="50" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/Joseph/Account.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/Joseph/SimpleCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="44" column="52" selection-start-line="44" selection-start-column="52" selection-end-line="44" selection-end-column="52" />
+            <state relative-caret-position="287">
+              <caret line="49" column="5" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -48,9 +50,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/Joseph/Bank.java" />
-        <option value="$PROJECT_DIR$/src/com/Joseph/Account.java" />
         <option value="$PROJECT_DIR$/src/com/Joseph/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/Joseph/SimpleCalculator.java" />
       </list>
     </option>
   </component>
@@ -73,22 +74,21 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="bank-account-challenge" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bank-account-challenge" type="462c0819:PsiDirectoryNode" />
+              <item name="sum-calculator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sum-calculator" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="bank-account-challenge" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bank-account-challenge" type="462c0819:PsiDirectoryNode" />
+              <item name="sum-calculator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sum-calculator" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="bank-account-challenge" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bank-account-challenge" type="462c0819:PsiDirectoryNode" />
+              <item name="sum-calculator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sum-calculator" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Joseph" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -96,10 +96,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
-  </component>
-  <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -116,7 +114,7 @@
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.Joseph.Main" />
-      <module name="bank-account-challenge" />
+      <module name="sum-calculator" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -135,11 +133,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a4808e5f-16db-417c-97c3-c3a33d4a2c73" name="Default Changelist" comment="" />
-      <created>1574048304400</created>
+      <changelist id="9a200acb-99b9-4f86-9e24-0a696ab4c73d" name="Default Changelist" comment="" />
+      <created>1574466910493</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1574048304400</updated>
+      <updated>1574466910493</updated>
     </task>
     <servers />
   </component>
@@ -152,7 +150,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
@@ -160,7 +158,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.32891566" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -176,17 +174,17 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/Joseph/Account.java">
+    <entry file="file://$PROJECT_DIR$/src/com/Joseph/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="44" column="52" selection-start-line="44" selection-start-column="52" selection-end-line="44" selection-end-column="52" />
+        <state relative-caret-position="375">
+          <caret line="28" column="50" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Joseph/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/Joseph/SimpleCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
+        <state relative-caret-position="287">
+          <caret line="49" column="5" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
         </state>
       </provider>
     </entry>
