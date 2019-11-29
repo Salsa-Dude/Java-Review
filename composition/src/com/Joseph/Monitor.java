@@ -4,6 +4,9 @@ public class Monitor {
     private String model;
     private String manufacturer;
     private int size;
+    // Example of composition
+    // - Resolution is a component of monitor
+    // which is why its a nativeResolution
     private Resolution nativeResolution;
 
     public Monitor(String model, String manufacturer, int size, Resolution nativeResolution) {
