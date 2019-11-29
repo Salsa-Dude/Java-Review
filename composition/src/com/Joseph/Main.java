@@ -1,7 +1,7 @@
 package com.Joseph;
 
 // Composition in java is the design technique to implement has-a relationship in classes.
-// Java composition is achieved by using instance variables that refers to other objects. 
+// Java composition is achieved by using instance variables that refers to other objects.
 
 public class Main {
 
@@ -15,7 +15,8 @@ public class Main {
 
         PC thePC = new PC(theCase, theMonitor, theMotherBoard);
 
-        thePC.getMonitor().drawPixelAt(1500, 1200, "red");
+//        thePC.getMonitor().drawPixelAt(1500, 1200, "red");
+        thePC.powerUp();
 
     }
 }
