@@ -35,11 +35,18 @@ public class MobilePhone {
         return true;
     }
 
-    public int foundContact(Contact contact) {
+    public String queryContact(Contact contact) {
+        if(this.foundContact(contact) >= 0) {
+            return contact.getName();
+        }
+        return null;
+    }
+
+    private int foundContact(Contact contact) {
         return this.myContacts.indexOf(contact);
     }
 
-    public int foundContact(String contactName) {
+    private int foundContact(String contactName) {
         for(int i = 0; i < this.myContacts.size(); i++) {
             Contact contact = this.myContacts.get(i);
             if(contact.getName().equals(contactName)) {
