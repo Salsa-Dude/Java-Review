@@ -53,6 +53,15 @@ public class MobilePhone {
         return true;
     }
 
+    public Contact queryContact(String name) {
+        int position = foundContact(name);
+        if(position >= 0) {
+            return this.myContacts.get(position);
+        }
+
+        return null;
+    }
+
 
     public String queryContact(Contact contact) {
         if(this.foundContact(contact) >= 0) {
