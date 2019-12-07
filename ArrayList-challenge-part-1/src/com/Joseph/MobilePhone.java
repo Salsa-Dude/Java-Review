@@ -26,6 +26,13 @@ public class MobilePhone {
         this.myContacts = new ArrayList<Contact>();
     }
 
+    public void printContacts() {
+        System.out.println("Contact List");
+        for (int i = 0; i < myContacts.size(); i++) {
+            System.out.println(this.myContacts.get(i).getName() + " --> " + this.myContacts.get(i).getPhoneNumber());
+        }
+    }
+
     public boolean addContact(Contact contact) {
         if(foundContact(contact.getName()) >= 0) {
             System.out.println("Contact is already in file");
@@ -34,6 +41,18 @@ public class MobilePhone {
         this.myContacts.add(contact);
         return true;
     }
+
+    public boolean removeContact(Contact contact) {
+        int foundPosition = this.foundContact(contact);
+        if(foundPosition < 0) {
+            System.out.println(contact.getName() + " was not found");
+            return false;
+        }
+        this.myContacts.remove(foundPosition);
+        System.out.println(contact.getName() + ", was deleted");
+        return true;
+    }
+
 
     public String queryContact(Contact contact) {
         if(this.foundContact(contact) >= 0) {
