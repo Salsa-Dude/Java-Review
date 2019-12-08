@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4ff449a6-8c8e-498d-bb31-22baca685e66" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/Joseph/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Joseph/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Joseph/MobilePhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Joseph/MobilePhone.java" afterDir="false" />
-    </list>
+    <list default="true" id="4ff449a6-8c8e-498d-bb31-22baca685e66" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
