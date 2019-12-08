@@ -32,6 +32,22 @@ public class Main {
     public static void main(String[] args) {
 	// write your code here
 
+        Bank bank = new Bank("Chevy Chase");
+
+        bank.addBranch("Sterling");
+
+        bank.addCustomer("Sterling", "Joe", 1000);
+        bank.addCustomer("Sterling", "Liz", 100.34);
+        bank.addCustomer("Sterling", "Diana", 900.98);
+
+        bank.addBranch("Bristow");
+        bank.addCustomer("Bristow", "Lily", 50.43);
+
+        bank.addCustomerTransactions("Sterling", "Joe", 5000.23);
+        bank.addCustomerTransactions("Sterling", "Diana", 400.23);
+
+        bank.listCustomers("Sterling", true);
+
 
 
     }

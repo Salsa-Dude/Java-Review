@@ -32,7 +32,7 @@ public class Customer {
 
     public void addTransaction(double transactionAmount) {
         this.transactions.add(transactionAmount);
-        System.out.println("Transaction of " + transactionAmount + " has been added");
+//        System.out.println("Transaction of " + transactionAmount + " has been added");
     }
 
 

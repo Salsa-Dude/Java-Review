@@ -3,6 +3,16 @@ package com.Joseph;
 // There should be a Bank class
 // It should have an arraylist of Branches
 
+// Add a customer to that branch with initial transaction
+// Add a transaction for an existing customer for that branch
+// Show a list of customers for a particular branch and optionally a list
+// of their transactions
+// Demonstration autoboxing and unboxing in your code
+// Hint: Transactions
+// Add data validation.
+// e.g. check if exists, or does not exist, etc.
+// Think about where you are adding the code to perform certain actions
+
 import java.util.ArrayList;
 
 public class Bank {
@@ -41,6 +51,7 @@ public class Bank {
 
     public boolean addCustomer(String branchName, String customerName, double initialAmount) {
         Branch branch = this.findBranch(branchName);
+
         if(branch != null) {
             return branch.newCustomer(customerName, initialAmount);
         }
@@ -63,8 +74,11 @@ public class Bank {
 
         if(branch != null) {
             ArrayList<Customer> branchCustomers = branch.getCustomers();
+            System.out.println(branchCustomers.size());
+
             for(int i = 0; i < branchCustomers.size(); i++) {
                 Customer branchCustomer = branchCustomers.get(i);
+
                 System.out.println("Customer: " + branchCustomer.getName() + "[" + (i + 1) + "]");
                 if(showTransactions) {
                     System.out.println("Transacations");

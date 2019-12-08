@@ -25,12 +25,12 @@ public class Branch {
 
     public boolean newCustomer(String name, double initialAmount) {
         if(this.findCustomer(name) == null) {
-            return false;
+            this.customers.add(new Customer(name, initialAmount));
+            return true;
         }
 
-        Customer newCustomer = Customer.makeCustomer(name, initialAmount);
-        this.customers.add(newCustomer);
-        return true;
+
+        return false;
     }
 
 
