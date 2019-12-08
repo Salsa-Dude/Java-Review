@@ -31,9 +31,7 @@ public class Main {
 
     public static void main(String[] args) {
 	// write your code here
-        Bank newBank = new Bank("Chevy Chase");
-        Branch newBranch = new Branch("Manassas");
-        System.out.println("Welcome to " + newBank.getName() + " at " + newBranch.getLocation());
+
 
 
     }
