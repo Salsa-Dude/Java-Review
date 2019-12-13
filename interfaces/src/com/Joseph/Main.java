@@ -13,10 +13,15 @@ public class Main {
 
     public static void main(String[] args) {
 	// write your code here
-        ITelephone jospehPhone;
-        jospehPhone = new DeskPhone(123456);
-        jospehPhone.powerOn();
-        jospehPhone.callPhone(123456);
-        jospehPhone.answer();
+        ITelephone josephPhone;
+        josephPhone = new DeskPhone(123456);
+        josephPhone.powerOn();
+        josephPhone.callPhone(123456);
+        josephPhone.answer();
+
+        josephPhone = new MobilePhone(789101112);
+        josephPhone.powerOn();
+        josephPhone.callPhone(789101112);
+        josephPhone.answer();
     }
 }
