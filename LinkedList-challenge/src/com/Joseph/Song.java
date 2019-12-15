@@ -8,7 +8,7 @@ public class Song {
 
     public Song(String title, double duration) {
         this.title = title;
-        duration = duration;
+        this.duration = duration;
     }
 
     public String getTitle() {
