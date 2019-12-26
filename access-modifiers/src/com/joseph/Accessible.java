@@ -14,5 +14,5 @@ interface Accessible {
     int SOME_CONSTANT = 30;
     public void methodA();
     void methodB();
-    boolean methodC(:
+    boolean methodC();
 }

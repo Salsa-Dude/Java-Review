@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="acaf2605-7f49-4bfc-9db6-5b01983d67e6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/joseph/Accessible.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/joseph/Accessible.java" afterDir="false" />
+    <list default="true" id="68386f72-3864-42c8-ac24-dc946eea8788" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../access-modifiers/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../access-modifiers/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../access-modifiers/src/com/joseph/Accessible.java" beforeDir="false" afterPath="$PROJECT_DIR$/../access-modifiers/src/com/joseph/Accessible.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,29 +18,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/joseph/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+            <state relative-caret-position="180">
+              <caret line="12" column="110" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="12" selection-end-column="110" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/joseph/Account.java">
+        <entry file="file://$PROJECT_DIR$/src/com/joseph/StaticTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/joseph/Accessible.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+            <state relative-caret-position="165">
+              <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -50,7 +42,6 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
-        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -60,9 +51,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/com/joseph/StaticTest.java" />
         <option value="$PROJECT_DIR$/src/com/joseph/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/joseph/Account.java" />
-        <option value="$PROJECT_DIR$/src/com/joseph/Accessible.java" />
       </list>
     </option>
   </component>
@@ -74,7 +64,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -90,17 +80,17 @@
         <subPane>
           <expand>
             <path>
-              <item name="access-modifiers" type="b2602c69:ProjectViewProjectNode" />
-              <item name="access-modifiers" type="462c0819:PsiDirectoryNode" />
+              <item name="static-statement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="static-statement" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="access-modifiers" type="b2602c69:ProjectViewProjectNode" />
-              <item name="access-modifiers" type="462c0819:PsiDirectoryNode" />
+              <item name="static-statement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="static-statement" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="access-modifiers" type="b2602c69:ProjectViewProjectNode" />
-              <item name="access-modifiers" type="462c0819:PsiDirectoryNode" />
+              <item name="static-statement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="static-statement" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="joseph" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -109,9 +99,6 @@
         </subPane>
       </pane>
     </panes>
-  </component>
-  <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -128,7 +115,7 @@
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.joseph.Main" />
-      <module name="access-modifiers" />
+      <module name="static-statement" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -147,11 +134,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="acaf2605-7f49-4bfc-9db6-5b01983d67e6" name="Default Changelist" comment="" />
-      <created>1577312859140</created>
+      <changelist id="68386f72-3864-42c8-ac24-dc946eea8788" name="Default Changelist" comment="" />
+      <created>1577328373896</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1577312859140</updated>
+      <updated>1577328373896</updated>
     </task>
     <servers />
   </component>
@@ -164,15 +151,15 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16165951" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32891566" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -188,24 +175,17 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/joseph/StaticTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/joseph/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/joseph/Account.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/joseph/Accessible.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        <state relative-caret-position="180">
+          <caret line="12" column="110" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="12" selection-end-column="110" />
         </state>
       </provider>
     </entry>
