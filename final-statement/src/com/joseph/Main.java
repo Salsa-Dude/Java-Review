@@ -1,6 +1,7 @@
 package com.joseph;
 
 // By marking your class as final your prevent your class from being subclass or extended to
+// Marking a method as final prevents the method from being overwritten
 
 public class Main {
 
@@ -15,7 +16,7 @@ public class Main {
         System.out.println(three.getInstanceNumber());
 
         int pwt = 5432;
-        Password password = new Password(pwt);
+        Password password = new ExtendedPassword(pwt);
         password.storePassword();
 
         password.letMeIn(12345);
