@@ -1,5 +1,8 @@
 package com.joseph;
 
+// Collections.binarySearch() method is a java.util.Collections class method that returns position of an object in a sorted list.
+// Collections.binarysearch() works for objects Collections like ArrayList and LinkedList.
+
 public class Main {
 
     public static void main(String[] args) {
