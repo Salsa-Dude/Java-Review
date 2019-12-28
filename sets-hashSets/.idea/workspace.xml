@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="07ca2979-928e-46d3-855e-d56a6035777a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="7f7f8a85-5ad1-4279-b101-16e91122e146" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../practice-maps-adventureGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../practice-maps-adventureGame/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,17 +20,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/joseph/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
-              <caret line="40" lean-forward="true" selection-start-line="39" selection-start-column="43" selection-end-line="40" />
+            <state relative-caret-position="300">
+              <caret line="47" column="55" lean-forward="true" selection-start-line="47" selection-start-column="55" selection-end-line="47" selection-end-column="55" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/joseph/Location.java">
+        <entry file="file://$PROJECT_DIR$/src/com/joseph/HeavenlyBody.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+            <state relative-caret-position="435">
+              <caret line="29" column="46" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -50,8 +50,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/com/joseph/HeavenlyBody.java" />
         <option value="$PROJECT_DIR$/src/com/joseph/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/joseph/Location.java" />
       </list>
     </option>
   </component>
@@ -73,22 +73,21 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="practice-maps-adventureGame" type="b2602c69:ProjectViewProjectNode" />
-              <item name="practice-maps-adventureGame" type="462c0819:PsiDirectoryNode" />
+              <item name="sets-hashSets" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sets-hashSets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="practice-maps-adventureGame" type="b2602c69:ProjectViewProjectNode" />
-              <item name="practice-maps-adventureGame" type="462c0819:PsiDirectoryNode" />
+              <item name="sets-hashSets" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sets-hashSets" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="practice-maps-adventureGame" type="b2602c69:ProjectViewProjectNode" />
-              <item name="practice-maps-adventureGame" type="462c0819:PsiDirectoryNode" />
+              <item name="sets-hashSets" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sets-hashSets" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="joseph" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -96,11 +95,9 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
-  </component>
-  <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -117,7 +114,7 @@
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.joseph.Main" />
-      <module name="practice-maps-adventureGame" />
+      <module name="sets-hashSets" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -136,11 +133,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="07ca2979-928e-46d3-855e-d56a6035777a" name="Default Changelist" comment="" />
-      <created>1577497797348</created>
+      <changelist id="7f7f8a85-5ad1-4279-b101-16e91122e146" name="Default Changelist" comment="" />
+      <created>1577507035144</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1577497797348</updated>
+      <updated>1577507035144</updated>
     </task>
     <servers />
   </component>
@@ -153,7 +150,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14377682" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
@@ -161,7 +158,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.32891566" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -177,17 +174,24 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/joseph/Location.java">
+    <entry file="file://$USER_HOME$/Downloads/Java-Collections-Sets-&amp;-HashSet-Source-code/src/com/timbuchalka/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+        <state relative-caret-position="36">
+          <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="38" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/joseph/HeavenlyBody.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="46" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/joseph/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="40" lean-forward="true" selection-start-line="39" selection-start-column="43" selection-end-line="40" />
+        <state relative-caret-position="300">
+          <caret line="47" column="55" lean-forward="true" selection-start-line="47" selection-start-column="55" selection-end-line="47" selection-end-column="55" />
         </state>
       </provider>
     </entry>
