@@ -45,10 +45,21 @@ public class Main {
             System.out.println("\t" + planet.getName());
         }
 
+        System.out.println("=================================================");
+
         HeavenlyBody earthBody = solarSystem.get("Earth");
         System.out.println("Moons of " + earthBody.getName());
         for(HeavenlyBody earthMoon : earthBody.getSatellites()) {
             System.out.println("\t" + earthMoon.getName());
+        }
+
+        HeavenlyBody mars2 = new HeavenlyBody("Mars", 687);
+        solarSystem.put(mars.getName(), mars2);
+        planets.add(mars2);
+
+        System.out.println("Planets");
+        for(HeavenlyBody planet : planets) {
+            System.out.println("\t" + planet.getName());
         }
 
 
