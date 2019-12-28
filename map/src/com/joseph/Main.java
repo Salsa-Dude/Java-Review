@@ -29,6 +29,26 @@ public class Main {
 
         System.out.println("========================================================");
 
+        // Removing a key/value pair in map
+        // remove methods returns a boolean
+        languages.remove("Java");
+
+        // Removing a key/value only if matches
+        if(languages.remove("Python", "testing")) {
+            System.out.println("Python has been removed");
+        } else {
+            System.out.println("Python not removed, key and value don't match");
+        }
+
+        // Replacing a key in map
+        languages.replace("Algol", "replace description");
+
+        // Another way to replace keys
+        // Only when both key/value matches
+        if(languages.replace("Algol", "replace description", "has been replaced twice")) {
+            System.out.println("Got it");
+        }
+
         // keySet return a set
         for(String key : languages.keySet()) {
             System.out.println(key + " " + languages.get(key));
