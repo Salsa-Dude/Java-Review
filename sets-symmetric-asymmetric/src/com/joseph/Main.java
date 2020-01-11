@@ -38,12 +38,57 @@ public class Main {
         // This method takes the array natureWords which is required to be converted into a List.
         nature.addAll(Arrays.asList(natureWords));
 
-        String[] divineWords = {"to", "err", "is", "human", "to", "forgive"};
+        String[] divineWords = {"to", "err", "is", "human", "to", "forgive", "divine"};
         divine.addAll(Arrays.asList(divineWords));
 
+        System.out.println("nature - divine");
+        // The removeAll() method is used to remove from this set all of its elements that are contained in the specified collection.
+        Set<String> diff1 = new HashSet<>(nature);
+        diff1.removeAll(divine);
+        printSet(diff1);
 
+        System.out.println("divine - nature");
+        // The removeAll() method is used to remove from this set all of its elements that are contained in the specified collection.
+        Set<String> diff2 = new HashSet<>(divine);
+        diff2.removeAll(nature);
+        printSet(diff2);
+
+
+        // is used to add all of the specified elements to the specified collection.
+        Set<String> unionTest = new HashSet<>(nature);
+        unionTest.addAll(divine);
+        System.out.println();
+        System.out.println(unionTest);
+
+        // The retainAll() method of Java Collection class retains
+        // or keeps only the elements in this collection that are contained in the invoked collection
+        // and removes all the elements that are not contained in the specified collection.
+        Set<String> intersectionTest = new HashSet<>(nature);
+        intersectionTest.retainAll(divine);
+        System.out.println();
+        System.out.println(intersectionTest);
+
+        // Symmetric Difference basically contains all elements of two arrays except common elements.
+        System.out.println("Symmetric difference");
+        unionTest.removeAll(intersectionTest);
+        printSet(unionTest);
+
+        if(nature.containsAll(intersectionTest)) {
+            System.out.println("intersection is subset of nature");
+        }
 
 
     }
+
+    private static void printSet(Set<String> set) {
+        System.out.println("\t");
+        for(String s : set) {
+            System.out.println(s + " ");
+        }
+
+        System.out.println();
+    }
+
+
 
 }
