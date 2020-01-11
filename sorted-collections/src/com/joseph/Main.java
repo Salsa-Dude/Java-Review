@@ -1,16 +1,11 @@
 package com.joseph;
 
 public class Main {
+    private static StockList stockList = new StockList();
 
     public static void main(String[] args) {
 	// write your code here
-        StockItem one = new StockItem("test1", 20.00);
-        StockItem two = new StockItem("test2", 30.00);
-        StockItem three = new StockItem("test1", 10.00);
-
-        StockList list = new StockList();
-        list.addStock(one);
-        list.addStock(two);
-        list.addStock(three);
+        StockItem temp = new StockItem("bread", 0.86, 100);
+        stockList.addStock(temp);
     }
 }
