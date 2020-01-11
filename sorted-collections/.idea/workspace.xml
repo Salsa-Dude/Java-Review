@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fcb7200b-b0b8-411e-b7e9-903703c862f4" name="Default Changelist" comment="" />
+    <list default="true" id="a249f569-33a2-4272-8479-438c63ca673d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../sets-symmetric-asymmetric/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../sets-symmetric-asymmetric/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,11 +17,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/joseph/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="423">
-              <caret line="76" column="64" selection-start-line="76" selection-start-column="64" selection-end-line="76" selection-end-column="64" />
+            <state>
+              <caret column="14" selection-start-column="14" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/joseph/StockItem.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="199">
+              <caret line="44" column="71" lean-forward="true" selection-start-line="44" selection-start-column="71" selection-end-line="44" selection-end-column="71" />
             </state>
           </provider>
         </entry>
@@ -39,8 +50,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/joseph/SetMain.java" />
-        <option value="$PROJECT_DIR$/src/com/joseph/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/joseph/StockItem.java" />
       </list>
     </option>
   </component>
@@ -52,7 +62,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -62,22 +72,22 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="sets-symmetric-asymmetric" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sets-symmetric-asymmetric" type="462c0819:PsiDirectoryNode" />
+              <item name="sorted-collections" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sorted-collections" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="sets-symmetric-asymmetric" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sets-symmetric-asymmetric" type="462c0819:PsiDirectoryNode" />
+              <item name="sorted-collections" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sorted-collections" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="sets-symmetric-asymmetric" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sets-symmetric-asymmetric" type="462c0819:PsiDirectoryNode" />
+              <item name="sorted-collections" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sorted-collections" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="joseph" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -85,11 +95,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
-  </component>
-  <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -106,7 +113,7 @@
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.joseph.Main" />
-      <module name="sets-symmetric-asymmetric" />
+      <module name="sorted-collections" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -125,11 +132,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="fcb7200b-b0b8-411e-b7e9-903703c862f4" name="Default Changelist" comment="" />
-      <created>1578535104219</created>
+      <changelist id="a249f569-33a2-4272-8479-438c63ca673d" name="Default Changelist" comment="" />
+      <created>1578703353208</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1578535104219</updated>
+      <updated>1578703353208</updated>
     </task>
     <servers />
   </component>
@@ -147,10 +154,10 @@
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -166,17 +173,17 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/joseph/SetMain.java">
+    <entry file="file://$PROJECT_DIR$/src/com/joseph/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="17" selection-end-column="5" />
+        <state>
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/joseph/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/joseph/StockItem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="76" column="64" selection-start-line="76" selection-start-column="64" selection-end-line="76" selection-end-column="64" />
+        <state relative-caret-position="199">
+          <caret line="44" column="71" lean-forward="true" selection-start-line="44" selection-start-column="71" selection-end-line="44" selection-end-column="71" />
         </state>
       </provider>
     </entry>
