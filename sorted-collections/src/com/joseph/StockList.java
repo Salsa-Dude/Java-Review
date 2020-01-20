@@ -2,13 +2,16 @@ package com.joseph;
 
 import java.util.Collections;
 import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.Map;
 
 public class StockList {
     private final Map<String, StockItem> list;
 
     public StockList() {
-        this.list = new HashMap<>();
+        // LinkedHashMap is just like HashMap with an additional feature of maintaining an order of elements inserted into it.
+        // HashMap provided the advantage of quick insertion, search and deletion
+        this.list = new LinkedHashMap<>();
     }
 
     public int addStock(StockItem item) {
@@ -62,8 +65,8 @@ public class StockList {
 
             double itemValue = stockItem.getPrice() * stockItem.quantityInStock();
 
-            s += stockItem + ". There are " + stockItem.quantityInStock() + " in stock. Value of items:";
-            s += itemValue + "\n";
+            s = s + stockItem + ". There are " + stockItem.quantityInStock() + " in stock. Value of items:";
+            s = s + String.format("%.2f", itemValue) + "\n";
 
             totalCost += itemValue;
 
