@@ -94,3 +94,39 @@ public class Main {
         throw new Exception();
     }
 }
+
+
+ // Recognize Common Exception classes
+/*
+     NullPointerException ----------------------------
+
+     - Thrown when an application attempts to use null where an object is required. Examples include
+     - Calling the instance method of a null object
+     - Accessing the field of a null object
+     - Throwing Null as if it were a throwable value
+     Example
+      String text = null;
+      text = text.toString();
+
+      ArithmeticException ------------------------------
+
+      - Thrown when an exceptional arithmetic condition has occurred; For example an integer divide by zero.
+      int i = 0;
+      int j = 1/i;
+
+
+      ArrayIndexOutOfBoundsException --------------------------
+
+      - Thrown to indicate that an array has been accessed with an illegal index; the index is either negative or greater than or equal to the size of the array.
+      Example
+      int[] array = {1,2,3,4}
+      int i = array[4]
+
+      ClassCastException -----------------------------------
+
+      - Thrown to indicate that the code has attempted to cast an object to a subclass of which it is not an instance.
+      Number number = new Integer(0)
+      Float floatingPoint = (Float) number;
+
+
+ */
