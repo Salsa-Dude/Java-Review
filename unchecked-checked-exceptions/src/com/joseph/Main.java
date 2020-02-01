@@ -30,6 +30,19 @@ public class Main {
     }
 
 
+    // Exception Handling Advantages
+    /* - Separating error-handling code from regular code
+       - Propagating errors up the call stack
+       - Grouping and differentiating error types
+
+       Exceptions provide the means to separate the details of what to do when an unusual situation happends in the main workflow of a program.
+
+
+    // Propating Erros up the Call Stack
+    - Exception handling supplies the ability to propagate errors up the call stack of methods.
+     */
+
+
 
 
 
